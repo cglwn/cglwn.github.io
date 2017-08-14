@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 630.5 265" style="enable-background:new 0 0 630.5 265;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F2F2F2;}
+	.st1{fill:#999999;}
+	.st2{fill:#333333;}
+	.st3{font-family:'ArialMT';}
+	.st4{font-size:24px;}
+	.st5{fill:none;stroke:#4D4D4D;stroke-miterlimit:10;}
+	.st6{fill:#4D4D4D;}
+	.st7{font-size:12px;}
+	.st8{fill:#FFFFFF;}
+	.st9{fill:none;}
+	.st10{font-size:10px;}
+	.st11{font-family:'Arial-BoldMT';}
+</style>
+<title>Motion Planner Block Diagram</title>
+<g id="Other_Elements">
+	<path class="st0" d="M86.9,0.5h418.6c6.4,0,11.5,5.1,11.5,11.5v241c0,6.4-5.1,11.5-11.5,11.5H86.9c-6.4,0-11.5-5.1-11.5-11.5V12
+		C75.4,5.6,80.6,0.5,86.9,0.5z"/>
+	<path class="st1" d="M505.5,1c6.1,0,11,4.9,11,11v241c0,6.1-4.9,11-11,11l0,0H86.9c-6.1,0-11-4.9-11-11l0,0V12c0-6.1,4.9-11,11-11
+		H505.5 M505.5,0H86.9c-6.6,0-12,5.4-12,12l0,0v241c0,6.6,5.4,12,12,12h418.6c6.6,0,12-5.4,12-12V12C517.5,5.4,512.2,0,505.5,0
+		L505.5,0z"/>
+	<text transform="matrix(1 0 0 1 215.53 28)" class="st2 st3 st4">Motion Planner</text>
+	<line class="st5" x1="517" y1="154.5" x2="546.7" y2="154.5"/>
+	<path class="st6" d="M552.8,154.5c-3.1,1.1-6,2.7-8.5,4.8l1.7-4.8l-1.7-4.8C546.8,151.8,549.7,153.4,552.8,154.5z"/>
+	<text transform="matrix(1 0 0 1 555.75 158.02)" class="st6 st3 st7">Control Inputs</text>
+	<line class="st5" x1="461.8" y1="154.5" x2="516.8" y2="154.5"/>
+	<path class="st8" d="M153.3,187.5h91c6.4,0,11.5,5.1,11.5,11.5v41c0,6.4-5.1,11.5-11.5,11.5h-91c-6.4,0-11.5-5.1-11.5-11.5v-41
+		C141.8,192.6,146.9,187.5,153.3,187.5z"/>
+	<path class="st6" d="M244.3,188c6.1,0,11,4.9,11,11l0,0v41c0,6.1-4.9,11-11,11l0,0h-91c-6.1,0-11-4.9-11-11l0,0v-41
+		c0-6.1,4.9-11,11-11l0,0H244.3 M244.3,187h-91c-6.6,0-12,5.4-12,12v41c0,6.6,5.4,12,12,12l0,0h91c6.6,0,12-5.4,12-12l0,0v-41
+		C256.3,192.4,250.9,187,244.3,187z"/>
+	<text transform="matrix(1 0 0 1 160.57 217)" class="st6 st3 st7">Environmental</text>
+	<text transform="matrix(1 0 0 1 157.57 231.4)" class="st6 st3 st7"> Decomposition</text>
+	<text transform="matrix(1 0 0 1 0 222.7)" class="st6 st3 st7">Percepts</text>
+	<line class="st5" x1="49.8" y1="219.5" x2="134.7" y2="219.5"/>
+	<path class="st6" d="M140.8,219.5c-3.1,1.1-6,2.7-8.5,4.8l1.7-4.8l-1.7-4.8C134.8,216.8,137.7,218.4,140.8,219.5z"/>
+	<line class="st9" x1="49.8" y1="219.5" x2="140.8" y2="219.5"/>
+	<text transform="matrix(1 0 0 1 6.68 88.7)" class="st6 st3 st7">Mission</text>
+	<path class="st8" d="M153.3,57.5h91c6.4,0,11.5,5.1,11.5,11.5v41c0,6.4-5.1,11.5-11.5,11.5h-91c-6.4,0-11.5-5.1-11.5-11.5V69
+		C141.8,62.6,146.9,57.5,153.3,57.5z"/>
+	<path class="st6" d="M244.3,58c6.1,0,11,4.9,11,11v41c0,6.1-4.9,11-11,11l0,0h-91c-6.1,0-11-4.9-11-11l0,0V69c0-6.1,4.9-11,11-11
+		H244.3 M244.3,57h-91c-6.6,0-12,5.4-12,12v41c0,6.6,5.4,12,12,12h91c6.6,0,12-5.4,12-12V69C256.3,62.4,250.9,57,244.3,57z"/>
+	<text transform="matrix(1 0 0 1 182.74 85.82)" class="st6 st3 st7">Route</text>
+	<text transform="matrix(1 0 0 1 178.07 100.22)" class="st6 st3 st7">Planner</text>
+	<line class="st5" x1="49.8" y1="85.5" x2="134.7" y2="85.5"/>
+	<path class="st6" d="M140.8,85.5c-3.1,1.1-6,2.7-8.5,4.8l1.7-4.8l-1.7-4.8C134.8,82.8,137.7,84.4,140.8,85.5z"/>
+	<line class="st9" x1="49.8" y1="85.5" x2="140.8" y2="85.5"/>
+	<path class="st5" d="M256.3,219.5h48.5c5.5,0,10-4.5,10-10v-25c0-5.5,4.5-10,10-10h17"/>
+	<path class="st6" d="M347.8,174.5c-3.1,1.1-6,2.7-8.5,4.8l1.7-4.8l-1.7-4.8C341.8,171.8,344.7,173.4,347.8,174.5z"/>
+	<path class="st5" d="M256.3,88.5h48.5c5.5,0,10,4.5,10,10v25c0,5.5,4.5,10,10,10h17"/>
+	<path class="st6" d="M347.8,133.5c-3.1,1.1-6,2.7-8.5,4.8l1.7-4.8l-1.7-4.8C341.8,130.8,344.7,132.4,347.8,133.5z"/>
+	<text transform="matrix(1 0 0 1 259.09 229.5)" class="st6 st3 st10">Environment</text>
+	<text transform="matrix(1 0 0 1 259.09 85.5)" class="st6 st3 st10">W</text>
+	<text transform="matrix(1 0 0 1 268.16 85.5)" class="st6 st3 st10">aypoints</text>
+	<path class="st5" d="M314.8,184.3"/>
+	<path class="st5" d="M314.8,191.3l-0.3-8.4c-0.1-4.6-4.8-8.4-10.3-8.4l-75-0.2l-20,0l-75-0.2c-5.5,0-10-4.5-10-10v-51
+		c0-4.4,3.6-8,8-8h3.5"/>
+	<path class="st6" d="M141.8,105c-3.1,1.1-6,2.7-8.5,4.8l1.7-4.8l-1.7-4.8C135.8,102.3,138.7,103.9,141.8,105z"/>
+</g>
+<g id="Trajectory_Generator">
+	<path class="st8" d="M359.3,122.6h91c6.3,0,11.4,5.1,11.4,11.4v41c0,6.3-5.1,11.4-11.4,11.4h-91c-6.3,0-11.4-5.1-11.4-11.4v-41
+		C347.9,127.7,353,122.6,359.3,122.6z"/>
+	<path class="st6" d="M450.3,123.2c6,0,10.8,4.8,10.8,10.8v41c0,6-4.8,10.8-10.8,10.8h-91c-6,0-10.8-4.8-10.8-10.8v-41
+		c0-6,4.8-10.8,10.8-10.8H450.3 M450.3,122h-91c-6.6,0-12,5.4-12,12v41c0,6.6,5.4,12,12,12h91c6.6,0,12-5.4,12-12v-41
+		C462.3,127.4,456.9,122,450.3,122z"/>
+	<text transform="matrix(1 0 0 1 376.08 150.82)" class="st2 st11 st7">T</text>
+	<text transform="matrix(1 0 0 1 382.75 150.82)" class="st2 st11 st7">rajectory </text>
+	<text transform="matrix(1 0 0 1 377.75 165.22)" class="st2 st11 st7">Generator</text>
+</g>
+</svg>

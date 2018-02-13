@@ -338,7 +338,7 @@
             \mathbf{A}_i\mathbf{y}_{i,k} \leq \mathbf{b}_i \\
             \end{aligned}
             $$
-            where \(\sigma_{\text{min}}(\cdot)\) extracts the smallest singular value,\(\mathbf{y}_{i,k}\) is the \(k\)-th control point of the Bézier curve inside \(\mathcal{P}_i\). Additional constraints may be added as such as constraining the dynamics at the endpoints, enforcing maximum values on the inputs, and restrictions based on the physical limits of the system. Depending on the constraints and the degree of the Bézier curve, the problem may be solved directly through a linear solve or least squares. If nonlinear inequalities are present, the designers of the framework suggest the Sequential Quadratic Programming (SQP) method as an effective optimization tool.
+            where \(\sigma_{\text{min}}(\cdot)\) extracts the smallest singular value, \(\mathbf{y}_{i,k}\) is the \(k\)-th control point of the Bézier curve inside \(\mathcal{P}_i\). Additional constraints may be added as such as constraining the dynamics at the endpoints, enforcing maximum values on the inputs, and restrictions based on the physical limits of the system. Depending on the constraints and the degree of the Bézier curve, the problem may be solved directly through a linear solve or least squares. If nonlinear inequalities are present, the designers of the framework suggest the Sequential Quadratic Programming (SQP) method as an effective optimization tool.
         </p>
         <h3>External Results</h3>
         <p>
